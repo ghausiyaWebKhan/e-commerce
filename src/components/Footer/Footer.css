@@ -1,0 +1,149 @@
+.footer{
+    position:relative;
+    display:flex;
+    width:100%;
+    margin:0 auto;
+    background-color:#343a40;
+    padding:5rem 0 0 0;
+    margin-top:4rem;
+}
+
+.iner_footer{
+    display:grid;
+    width:90vw;
+    margin:0 auto;
+    grid-template-columns:auto auto auto auto;
+}
+
+.get_in_touch{
+    padding:3rem;
+}
+
+h1{
+    color:#fff;
+    margin-bottom:2.5rem;
+}
+
+h2{
+    color:#fff;
+    margin-bottom:1.5rem;
+}
+
+p{
+    color:#fff;
+    font-size:1.3rem;
+    margin-bottom:2rem;
+    line-height:1.5;
+}
+
+ul li{
+    list-style-type: none ;
+    color:#fff;
+    margin-bottom:1rem;
+    font-size:1.1rem;
+}
+
+ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-size:1.3rem;
+}
+
+.get_in_touch ul li span{
+    color:#FFD333;
+    display:flex;
+    justify-content:cenetr;
+    align-items:center;
+}
+
+
+.social_icons > span{
+    color:#FFD333;
+     font-size:1.3rem;
+     
+     margin-right:1.5rem;
+     font-size:2rem;
+     margin-top:1.5rem;
+}
+
+.quick_shop{
+    padding:3rem 5rem;
+}
+
+.account{
+    padding:3rem 5rem;
+}
+.news_letter{
+    padding:3rem 5rem;
+}
+
+.go-to-top{
+position:fixed;
+bottom:3rem;
+right:3rem;
+background-color:#FFD333;
+animation-name:ScrollTop;
+animation-duration:4s;
+/* transform:scale(2.0); */
+display:flex;
+justify-content:center;
+align-items:center;
+color:#343a40;
+padding:20px;
+animation-iteration-count: infinite;
+animation-direction:alternate ;
+z-index:10;
+}
+
+
+
+@keyframes ScrollTop{
+    0%{
+        /* background-color:red; */
+        transform:translateY(-10px);
+/* transform:scale(2.0); */
+
+    }
+    25%{
+        /* background-color:green; */
+        transform:translateY(20px);
+        /* transform:scale(2.0); */
+
+    }
+    50%{
+        /* background-color:blue; */
+        transform:translateY(-10px);
+        /* transform:scale(2.0); */
+
+    }
+    100%{
+        /* background-color:yellow; */
+        transform:translateY(10px);
+        /* transform:scale(2.0); */
+
+    }
+}
+/* 
+@keyframes ScrollTop{
+    0%{
+        background-color:red;
+        transform:translateY(2rem);
+    }
+    25%{
+        background-color:green;
+        transform:translateY(4rem);
+
+    }
+    50%{
+        background-color:blue;
+        transform:translateY(-2rem);
+
+    }
+    100%{
+        background-color:yellow;
+        transform:translateY(2rem);
+
+    }
+} */
+
+

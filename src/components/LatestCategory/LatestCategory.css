@@ -1,0 +1,40 @@
+.latestCategory{
+    display:grid;
+    width:90vw;
+    margin:0 auto;
+    gap:30px;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom:5rem;
+}
+
+.latest_products{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    background-color:#e5e9ec;
+    padding:15px;
+}
+
+
+
+.product_info{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-left:30px;
+    font-size:20px;
+}
+
+.product_info p{
+    color:black;
+}
+
+.latest_products:hover .product_img > img{
+    transform:rotate(3deg) scale(1.5);
+    transition:.5s ease;
+}
+.latest_products:hover{
+    background-color:#FFD333;
+    transition:.3s ease;
+}

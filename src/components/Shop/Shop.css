@@ -1,0 +1,58 @@
+.filter-section{
+    width:90vw;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:space-between; */
+    margin-right:3rem;
+
+}
+.shop-section{
+    display:flex;
+    width:90vw;
+    margin:0 auto;
+    /* margin-top:15rem; */
+}
+
+.shop_product{
+    display:grid;
+    width:70vw;
+    grid-template-columns:auto auto auto;
+    gap:20px;
+    margin-top:5rem;
+    
+}
+.input-form{
+    width:100%;
+}
+
+.filter{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:20vw;
+}
+
+.filter-input{
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+    background:#e5e9ec;
+    padding:1rem 2.5rem;
+}
+
+.filter-input span{
+    font-size:20px;
+    border:2px solid #787b7d;
+    padding:3px 5px;
+    color:#787b7d;
+}
+
+.filter-btn{
+    transform:scale(1.3);
+}
+
+.checkbox{
+    margin-right:10px;
+    color:yellow;
+}

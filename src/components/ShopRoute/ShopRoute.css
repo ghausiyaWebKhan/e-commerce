@@ -1,0 +1,14 @@
+.shop-route{
+    display:flex;
+    align-items:center;
+    background:yellow;
+    flex-direction:row;
+    padding:1rem;
+    margin-top:3rem;
+}
+
+.shop-route > span{
+    font-size:1.5rem;
+    /* color:#6c757d; */
+    margin-right:10px;
+}

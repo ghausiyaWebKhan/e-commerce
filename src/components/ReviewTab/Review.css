@@ -1,0 +1,56 @@
+.review-tab{
+    display:flex;
+    width:90vw;
+    margin:0 auto;
+    margin-top:5rem;
+}
+
+.review-container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.review-btn-container{
+    display:flex;
+}
+.review-btn-container button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:1rem 1.3rem;
+    border:1px solid #e5e0e0;
+    font-size:1.5rem;
+    /* font-weight:bold; */
+    background-color:#e5e9ec;
+}
+
+
+
+.review-info{
+    display:flex;
+    flex-direction:column;
+    padding:2rem 1rem;
+    border:1px solid #e5e0e0;
+
+}
+
+.common h1{
+    color:#2a3035;
+}
+
+.common p{
+    color:#787b7d;
+    font-size:1.5rem;
+}
+
+.description{
+    color:black;
+    display:none;
+}
+
+
+
+.description.active{
+    display:block;
+}

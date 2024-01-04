@@ -1,0 +1,64 @@
+.header {
+    width:90%;
+    margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top:2rem;
+}
+.logo{
+    color:#fff;
+    font-weight:bold;
+    font-size:2.5rem;
+    
+}
+.multi{
+    background-color:#3D464D ;
+    padding: 5px;
+    color:#ffc800
+}
+
+.shop{
+    background-color:#ffc800;
+    padding: 5px;
+    color:#3D464D ;
+}
+.customer_number{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.customer_number span:nth-of-type(1){
+    font-size:20px;
+    color:grey;
+}
+.customer_number span:nth-of-type(2){
+    font-size:20px;
+    color:#000;
+    font:900;
+}
+
+.search_bar{
+    display:flex;
+    flex-direction:row;
+}
+
+input.input_product {
+    padding: 7px 10px;
+    width: 350px;
+    font-size:1rem;
+    border-radius:none;
+    outline:none;
+}
+
+input.input_product:focus{
+    border:1px solid #ffc800;
+}
+
+.contact button{
+    background:#FFD333;
+    border:1px solid #FFD333;
+    margin-bottom:3rem;
+    padding:10px 30px;
+    font-size:1.2rem;
+}
